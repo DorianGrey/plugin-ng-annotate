@@ -1,0 +1,44 @@
+{
+	"name": "plugin-ng-annotate",
+	"version": "0.0.1",
+	"description": "SystemJS plugin to for annotating angularjs code",
+	"main": "lib/plugin.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://www.github.com/DorianGrey/plugin-typescript-ng-annotate"
+	},
+	"keywords": [
+		"systemjs",
+		"jspm",
+		"angularjs",
+		"ng-annotate"
+	],
+	"authors": [
+		"Christian Linne"
+	],
+	"license": "ISC",
+	"devDependencies": {
+		"jspm": "^0.17.0-beta.22",
+		"ng-annotate": "^1.2.1"
+	},
+	"jspm": {
+		"format": "cjs",
+		"main": "plugin",
+		"registry": "github",
+		"name": "DorianGrey/plugin-ng-annotate",
+		"dependencies": {
+			"ng-annotate": "npm:ng-annotate@1.2.1"
+		},
+		"directories": {
+			"lib": "lib",
+			"dist": "lib"
+		}
+	},
+	"engines": {
+		"node": ">=4",
+		"npm": ">=3"
+	}
+}
