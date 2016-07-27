@@ -20,6 +20,10 @@ packages: {
   },
 }
 ```
+
+# Thanks to
+- @olov for creating [ng-annotate](https://github.com/olov/ng-annotate)
+
 # TODO
 - Somehow configure ng-annotate.
 - Check and potentially fix source-map handling.
