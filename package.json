@@ -1,6 +1,6 @@
 {
 	"name": "plugin-ng-annotate",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "SystemJS plugin to for annotating angularjs code",
 	"main": "lib/plugin.js",
 	"scripts": {
