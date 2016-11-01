@@ -28,12 +28,7 @@ ngAnnotateOptions: {
   // ...
 }
 ```
-If **not** explicitly provided, `{add: true}` will be used by default. This should be sufficient for most cases.
+If **not** explicitly provided, `{add: true}` will be used as the default basis for further processing default. This should be sufficient for most cases. Please note that a potentially existing options entry `map` will be overwritten for proper source map handling.
 
 # Thanks to
 - @olov for creating [ng-annotate](https://github.com/olov/ng-annotate)
-
-# TODO
-- Check and potentially fix source-map handling.
-
-
